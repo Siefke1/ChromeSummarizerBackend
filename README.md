@@ -10,6 +10,8 @@ Backend for [ChromeSummarizer](https://github.com/Siefke1/ChromeSummarizer)
 
 ## Installation
 
+Copy `sample.env` to `.env` and fill in the values.
+
 ```bash
 $ npm install
 ```

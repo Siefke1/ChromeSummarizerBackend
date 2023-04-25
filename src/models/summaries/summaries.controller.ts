@@ -1,4 +1,3 @@
-// summaries.controller.ts
 import { Body, Controller, Get, Post, Delete, Param } from '@nestjs/common';
 import { SummariesService } from './summaries.service';
 import { Summary } from '../schemas/summary.schema';

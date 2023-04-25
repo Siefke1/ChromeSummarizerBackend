@@ -1,4 +1,3 @@
-// summaries.service.spec.ts
 import { Test, TestingModule } from '@nestjs/testing';
 import { getModelToken } from '@nestjs/mongoose';
 import { Model } from 'mongoose';

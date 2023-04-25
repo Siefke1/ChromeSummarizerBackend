@@ -3,7 +3,6 @@ import { SummariesController } from '../summaries.controller';
 import { SummariesService } from '../summaries.service';
 import { Summary } from '../../schemas/summary.schema';
 
-// Mock SummariesService
 const mockSummariesService = () => ({
   findAll: jest.fn(),
   create: jest.fn(),

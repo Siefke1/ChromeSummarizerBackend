@@ -6,8 +6,8 @@ import { HttpModule } from '@nestjs/axios';
 import { SummariesModule } from './models/summaries/summaries.module';
 
 const DB_URI_DEV = 'mongodb://localhost/summarizer-dev';
-const DB_URI_TEST = 'mongodb://localhost/summarizer-test';
 const DB_URI_PROD = 'mongodb://localhost/summarizer-prod';
+const DB_URI_TEST = `mongodb://localhost/summarzer-test`;
 
 const DB_URI =
   process.env.NODE_ENV === 'test'

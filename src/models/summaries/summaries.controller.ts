@@ -2,6 +2,7 @@
 import { Body, Controller, Get, Post, Delete, Param } from '@nestjs/common';
 import { SummariesService } from './summaries.service';
 import { Summary } from '../schemas/summary.schema';
+import { Types } from 'mongoose';
 
 @Controller('summaries')
 export class SummariesController {
@@ -14,6 +15,7 @@ export class SummariesController {
 
   @Post()
   async create(@Body() summary: Summary): Promise<Summary> {
+    summary._id = new Types.ObjectId().toHexString();
     return await this.summariesService.create(summary);
   }
 

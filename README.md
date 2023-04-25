@@ -6,6 +6,7 @@ Backend for [ChromeSummarizer](https://github.com/Siefke1/ChromeSummarizer)
 
 - [Node.js](https://nodejs.org/en/)
 - [MongoDB](https://www.mongodb.com/)
+- [OpenAI API Key](https://platform.openai.com/account/api-keys)
 
 ## Installation
 
@@ -18,10 +19,14 @@ $ npm install
 ```bash
 # development
 $ npm run start
+```
 
+```bash
 # watch mode
 $ npm run start:dev
+```
 
+```bash
 # production mode
 $ npm run start:prod
 ```
@@ -31,10 +36,9 @@ $ npm run start:prod
 ```bash
 # unit tests
 $ npm run test
+```
 
-# e2e tests
-$ npm run test:e2e
-
+```bash
 # test coverage
 $ npm run test:cov
 ```
